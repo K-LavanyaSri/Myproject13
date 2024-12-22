@@ -3,7 +3,7 @@
     "version": 2,
     "builds": [
       {
-        "src": "coffeesite/wsgi.py",
+        "src": "myproject13/wsgi.py",
         "use": "@vercel/python",
         "config": {
           "maxLambdaSize": "15mb",
@@ -21,7 +21,7 @@
     "routes": [
       {
         "src": "/(.*)",
-        "dest": "coffeesite/wsgi.py"  
+        "dest": "myproject13/wsgi.py"  
       }
     ],
     "outputDirectory": "static"
