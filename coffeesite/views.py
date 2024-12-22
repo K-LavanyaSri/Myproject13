@@ -7,11 +7,11 @@ def home(request):
 def products(request):
     return render(request,'products.html')
 
-def testimonials(request):
-    return render(request,'testimonials.html')
+# def testimonials(request):
+#     return render(request,'testimonials.html')
 
-def aboutUs(request):
-    return render(request,'aboutUs.html')
+# def aboutUs(request):
+#     return render(request,'aboutUs.html')
 
-def contactUs(request):
-    return render(request,'contactUs.html')
+# def contactUs(request):
+#     return render(request,'contactUs.html')
